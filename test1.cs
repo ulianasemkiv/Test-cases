@@ -8,5 +8,10 @@ namespace task3
         {
             Console.WriteLine("Hello World");
         }
+        static int GetSum(int a, int b)
+        {
+            int sum = a + b;
+            return sum;
+        }
     }
 }
